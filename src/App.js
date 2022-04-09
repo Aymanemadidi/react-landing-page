@@ -44,16 +44,16 @@ const App = () => {
 
   return (
     <div className="app-container" data-theme={theme}>
-      {/* <ScrollToTop /> */}
+      <ScrollToTop />
       <Navbar changeTheme={changeTheme} currentTheme={theme} />
       <Home />
       <Free />
-      {/* <Clients />
+      <Clients />
       <SuperRare />
       <Release />
       <Like />
       <SignUp />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 };

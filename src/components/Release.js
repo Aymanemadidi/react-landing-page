@@ -1,23 +1,22 @@
 import React from "react";
 import { BsArrowRight } from "react-icons/bs";
-import release1 from "../assets/release1.png";
-import release2 from "../assets/release2.png";
-import Card from "./Card";
+import london from "../assets/london.png";
+import egypt from "../assets/egypt.png";
 
 const Release = () => {
   return (
     <div className="releases">
-      <div className="release orange">
+      <div className="release blue">
         <div className="content">
-          <h2 className="title">Initial Release 4/11</h2>
+          <h2 className="title">Lorem ipsum dolor sit amet.</h2>
           <p className="description">
             {" "}
-            We have released four limited edition NFT's early which can be bid
-            on via <a href="#"> OpenSea</a>.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores,
+            consequuntur. <a href="#"> lorem</a>.
           </p>
           <p className="description">
-            There will only be four of these NFT's we ever make, so be sure not
-            to miss out!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+            voluptas alias blanditiis consequuntur?
           </p>
           <p className="description">50% of proceeds go to charity</p>
           <a href="#" className="link">
@@ -25,33 +24,28 @@ const Release = () => {
           </a>
         </div>
         <div className="image">
-          <img src={release1} alt="release1" />
+          <img src={egypt} alt="release1" />
           <div className="ellipse pink"></div>
         </div>
       </div>
 
       <div className="release green">
         <div className="card-container">
-          <Card
-            image={release2}
-            title="Purple Man"
-            series="Floop Series"
-            price={2.99}
-            tag={12983}
-            time={1}
-          />
+          <div className="image">
+            <img src={london} alt="release1" />
+          </div>
           <div className="ellipse orange"></div>
         </div>
         <div className="content">
-          <h2 className="title">Initial Release 4/11</h2>
+          <h2 className="title">Lorem ipsum dolor sit amet.</h2>
           <p className="description">
             {" "}
-            We have released four limited edition NFT's early which can be bid
-            on via <a href="#"> OpenSea</a>.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, amet!{" "}
+            <a href="#"> lorem</a>.
           </p>
           <p className="description">
-            There will only be four of these NFT's we ever make, so be sure not
-            to miss out!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto
+            repellat quod nisi veniam.
           </p>
           <p className="description">50% of proceeds go to charity</p>
           <a href="#" className="link">

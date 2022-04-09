@@ -1,14 +1,13 @@
-import eth1 from "../assets/eth1.png";
-import eth2 from "../assets/eth2.png";
-
+import london from "../assets/london.png";
+import egypt from "../assets/egypt.png";
 const Like = () => {
   return (
     <div className="like">
       <div className="container">
         <div className="content">
           <div className="image">
-            <img src={eth1} alt="eth1" />
-            <h2 className="title">An NFT like no other</h2>
+            <img src={london} alt="london" />
+            <h2 className="title">Lorem ipsum dolor sit amet.</h2>
           </div>
           <p className="description">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum
@@ -23,8 +22,8 @@ const Like = () => {
         </div>
         <div className="content">
           <div className="image">
-            <img src={eth2} alt="eth2" />
-            <h2 className="title">An NFT like no other</h2>
+            <img src={egypt} alt="egypt" />
+            <h2 className="title">Lorem ipsum dolor sit amet.</h2>
           </div>
           <p className="description">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum

@@ -1,41 +1,40 @@
 import React from "react";
 import Card from "./Card";
-import super1 from "../assets/super1.png";
-import super2 from "../assets/super2.png";
-import super3 from "../assets/super3.png";
-import super4 from "../assets/super4.png";
+import paris from "../assets/pairs2.jpg";
+import london from "../assets/london.png";
+import egypt from "../assets/egypt.png";
 
 export default function SuperRare() {
   const data = [
     {
-      image: super1,
-      series: "Gloop Series",
-      title: "Purple Man",
-      price: 2.99,
+      image: paris,
+      series: "Destination",
+      title: "Paris, FR",
+      price: 500,
       tag: 12983,
       time: 1,
     },
     {
-      image: super2,
-      series: "Gloop Series",
-      title: "Beige",
-      price: 2.99,
+      image: egypt,
+      series: "Destination",
+      title: "Giza, EG",
+      price: 350,
       tag: 12983,
       time: 1,
     },
     {
-      image: super3,
-      series: "Gloop Series",
-      title: "Red Man",
-      price: 2.99,
+      image: london,
+      series: "Destination",
+      title: "London, UK",
+      price: 500,
       tag: 12983,
       time: 1,
     },
     {
-      image: super4,
-      series: "Gloop Series",
-      title: "Green",
-      price: 2.99,
+      image: egypt,
+      series: "Destination",
+      title: "Giza, EG",
+      price: 350,
       tag: 12983,
       time: 1,
     },
@@ -44,10 +43,10 @@ export default function SuperRare() {
   return (
     <div className="super-rare">
       <div className="title-container">
-        <h2 className="title">LE Super Rare Auction</h2>
+        <h2 className="title">Trip Options</h2>
         <p className="description">
-          We have released four limited edition NFT's early which can be bid on
-          via <a href="#"> OpenSea</a>.
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
+          eveniet.
         </p>
       </div>
       <div className="cards">

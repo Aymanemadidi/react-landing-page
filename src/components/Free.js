@@ -1,7 +1,8 @@
 import React from "react";
 import icon from "../assets/icon.png";
-import super1 from "../assets/super1.png";
-import release2 from "../assets/release2.png";
+// import super1 from "../assets/super1.png";
+import london from "../assets/london.png";
+import egypt from "../assets/egypt.png";
 import Card from "./Card";
 
 const Free = () => {
@@ -16,31 +17,31 @@ const Free = () => {
           <div className="image">
             <img src={icon} alt="icon" />
           </div>
-          <h2 className="title">Free NFT for early birds</h2>
+          <h2 className="title">Free travel tickets for loyal customers</h2>
           <p className="description">
-            Sign up today and you'll get a free NFT when we launch
+            Sign up today and you'll have the chance to win free tickets
           </p>
         </div>
       </div>
       <div className="cards">
         <div className="card1">
           <Card
-            image={super1}
-            title="Purple Man"
-            series="Floop Series"
-            price={2.99}
+            image={london}
+            title="London, UK"
+            series="Destination"
+            price={0}
             tag={12983}
-            time={1}
+            time={6}
           />
         </div>
         <div className="card2">
           <Card
-            image={release2}
-            title="Purple Man"
-            series="Gloop Series"
-            price={3.95}
+            image={egypt}
+            title="Giza, EG"
+            series="Destination"
+            price={0}
             tag={12983}
-            time={2}
+            time={7}
           />
         </div>
       </div>

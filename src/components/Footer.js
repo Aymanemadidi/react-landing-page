@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo.png";
+import logo2 from "../assets/travely-logo-white.png";
 import { BsFacebook, BsTwitter, BsInstagram } from "react-icons/bs";
 import { FaTiktok } from "react-icons/fa";
 export default function Footer() {
@@ -8,10 +8,10 @@ export default function Footer() {
       title: "About",
       data: ["About", "Terms", "Legal"],
     },
-    {
-      title: "NFT",
-      data: ["OpenSea", "Maker", "Learn"],
-    },
+    // {
+    //   title: "NFT",
+    //   data: ["OpenSea", "Maker", "Learn"],
+    // },
     {
       title: "Contact",
       data: ["Press", "Support"],
@@ -32,9 +32,9 @@ export default function Footer() {
       <div className="upper">
         <div className="brand-container">
           <div className="brand">
-            <img src={logo} alt="logo" />
+            <img src={logo2} alt="logo" />
           </div>
-          <p>Exclusive NFT Collection</p>
+          <p>Exclusive Travels</p>
           <ul>
             {socialLink.map((link, i) => (
               <li key={i}>{link}</li>
@@ -57,7 +57,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="lower">
-        <span>&copy; Copyright 2022 NFT</span>
+        <span>&copy; Copyright 2022</span>
         <span>Launching August 2022</span>
       </div>
     </footer>

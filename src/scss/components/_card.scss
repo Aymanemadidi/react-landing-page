@@ -2,7 +2,11 @@
   background-color: var(--card-color);
   width: max-content;
   border-radius: 1rem;
-
+  .card-image {
+    img {
+      height: 350px;
+    }
+  }
   &-content {
     display: flex;
     flex-direction: column;

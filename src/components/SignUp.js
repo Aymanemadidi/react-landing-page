@@ -1,4 +1,4 @@
-import signup from "../assets/signup.png";
+import egypt from "../assets/egypt.png";
 
 const SignUp = () => {
   return (
@@ -6,16 +6,16 @@ const SignUp = () => {
       <div className="container">
         <div className="content">
           <p className="sub-title">Launching Soon</p>
-          <p className="title">An NFT Collection Like No Other</p>
+          <p className="title">Lorem ipsum dolor sit amet consectetur.</p>
           <p className="description">
-            Don't miss out on the release of our new NFT. Signup below to
-            receive updates of when we go live
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit
+            vitae sapiente deserunt sed reprehenderit nisi.
           </p>
           <button>Sign Up</button>
         </div>
         <div className="image-container">
           <div className="image">
-            <img src={signup} alt="signup" />
+            <img src={egypt} alt="egypt" />
           </div>
           <div className="ellipse-container">
             <div className="ellipse pink"></div>

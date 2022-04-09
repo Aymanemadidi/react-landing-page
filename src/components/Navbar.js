@@ -3,7 +3,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
 import { ImSun } from "react-icons/im";
 import { BsFillMoonFill } from "react-icons/bs";
-import logo from "../assets/logo.png";
+import logo2 from "../assets/travely-logo-white.png";
 
 const Navbar = ({ changeTheme, currentTheme }) => {
   const [navState, setNavState] = useState(false);
@@ -11,7 +11,7 @@ const Navbar = ({ changeTheme, currentTheme }) => {
     <nav>
       <div className="brand-container">
         <div className="brand">
-          <img src={logo} alt="logo" />
+          <img src={logo2} alt="logo" />
         </div>
         <div className="toogle-container">
           <div className="toogle">
@@ -21,7 +21,7 @@ const Navbar = ({ changeTheme, currentTheme }) => {
               <GiHamburgerMenu onClick={() => setNavState(true)} />
             )}
           </div>
-          <div className="mode">
+          <div className="mode" onClick={changeTheme}>
             {currentTheme === "dark" ? (
               <ImSun className="light" />
             ) : (

@@ -1,5 +1,6 @@
 .signup {
   padding-top: 4rem;
+  padding-bottom: 4rem;
   overflow-y: hidden;
   border-top: 0.1rem solid white;
   border-bottom: 0.1rem solid white;
@@ -52,6 +53,11 @@
       text-align: center;
       position: relative;
       z-index: 10;
+      .image {
+        img {
+          height: 300px;
+        }
+      }
       .ellipse-container {
         .ellipse {
           z-index: -1;
@@ -69,6 +75,39 @@
           background-color: var(--orange);
           bottom: 40%;
           left: 40%;
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    padding: 1rem;
+    position: relative;
+    overflow-x: hidden;
+    margin-top: 1rem;
+    .container {
+      font-size: 16px;
+      grid-template-columns: 0.7fr;
+      .image-container {
+        position: absolute;
+        right: 0;
+        top: 30%;
+        .image {
+          img {
+            height: 10rem;
+          }
+        }
+        .ellipse-container {
+          .ellipse {
+            height: 6rem;
+            width: 6rem;
+            filter: blur(30px);
+          }
+          .pink {
+            right: 10%;
+          }
+          .orange {
+            left: -5%;
+          }
         }
       }
     }
