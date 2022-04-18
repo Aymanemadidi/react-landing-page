@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-landing-page/static/css/main.e58bdd66.css",
+    "main.js": "/react-landing-page/static/js/main.8eb0ecbb.js",
+    "static/media/travel-main.png": "/react-landing-page/static/media/travel-main.0d10f2757cae13699014.png",
+    "static/media/london.png": "/react-landing-page/static/media/london.925d0fabe5b3d46ccacc.png",
+    "static/media/egypt.png": "/react-landing-page/static/media/egypt.6da30d9388289750dc34.png",
+    "static/media/travely-logo-white.png": "/react-landing-page/static/media/travely-logo-white.0f19470e3ec671dc8aef.png",
+    "static/media/pairs2.jpg": "/react-landing-page/static/media/pairs2.c81a80c4595d1f64bd35.jpg",
+    "index.html": "/react-landing-page/index.html",
+    "main.e58bdd66.css.map": "/react-landing-page/static/css/main.e58bdd66.css.map",
+    "main.8eb0ecbb.js.map": "/react-landing-page/static/js/main.8eb0ecbb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e58bdd66.css",
+    "static/js/main.8eb0ecbb.js"
+  ]
+}
